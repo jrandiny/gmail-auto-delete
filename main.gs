@@ -55,7 +55,6 @@ function scanAndDeleteEmail(query){
 }
 
 function encodeHtmlSpecialChar(input){
-  return input.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  return input.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
-
 
