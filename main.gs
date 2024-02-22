@@ -1,5 +1,5 @@
 function main() {
-  scanAndDeleteEmail(`category:promotions AND -L:important AND -is:starred AND older_than:1y`)
+  scanAndDeleteEmail(`category:promotions AND -L:important AND -is:starred AND older_than:1y`);
 }
 
 const SEARCH_PAGE_SIZE = 50;
